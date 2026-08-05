@@ -13,6 +13,7 @@ Free companion tools:
 
 - [business-day follow-up planner + calendar reminders](https://quotechime.pages.dev/tools/follow-up-date-calculator?ref=github-repo)
 - [quote expiry date calculator](https://quotechime.pages.dev/tools/quote-expiry-date-calculator?ref=github-repo)
+- [printable quote follow-up checklist](https://quotechime.pages.dev/tools/quote-follow-up-checklist?ref=github-repo)
 - [lost quote revenue scenario calculator](https://quotechime.pages.dev/tools/lost-quote-revenue-calculator?ref=github-repo)
 - [quote objection response generator](https://quotechime.pages.dev/tools/quote-objection-response-generator?ref=github-repo)
 - [embeddable privacy-first website widget](https://quotechime.pages.dev/tools/embed-quote-follow-up-widget?ref=github-repo)
