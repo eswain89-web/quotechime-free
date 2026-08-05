@@ -51,3 +51,12 @@ test('GitHub Pages entry point runs the local module and links the commercial of
   assert.match(html, /freenosignup/);
   assert.match(readFileSync(resolve(import.meta.dirname, '../robots.txt'), 'utf8'), /sitemap\.xml/);
 });
+
+test('repository resources preserve a finite stop and minimise tracker data', () => {
+  const workflow = readFileSync(resolve(import.meta.dirname, '../resources/quote-follow-up-workflow.md'), 'utf8');
+  const tracker = readFileSync(resolve(import.meta.dirname, '../resources/quote-follow-up-tracker.csv'), 'utf8');
+  assert.match(workflow, /close the loop/i);
+  assert.match(workflow, /Stop immediately/i);
+  assert.match(tracker, /quote_id,quote_sent_date,quote_value_aud,status,next_action_date,next_action/);
+  assert.doesNotMatch(tracker, /customer|email|phone/i);
+});

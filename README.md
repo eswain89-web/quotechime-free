@@ -18,6 +18,11 @@ Free companion tools:
 - [quote objection response generator](https://quotechime.pages.dev/tools/quote-objection-response-generator?ref=github-repo)
 - [embeddable privacy-first website widget](https://quotechime.pages.dev/tools/embed-quote-follow-up-widget?ref=github-repo)
 
+Repository-native resources that work offline:
+
+- [finite quote follow-up workflow and copy-ready examples](resources/quote-follow-up-workflow.md)
+- [privacy-minimised quote pipeline tracker](resources/quote-follow-up-tracker.csv)
+
 Using job-management software? These independent guides match editable copy to
 the vendors' documented reminder behaviour:
 
@@ -27,6 +32,12 @@ the vendors' documented reminder behaviour:
 - [Fergus quote reminder templates](https://quotechime.pages.dev/guides/fergus-quote-reminder-template?ref=github-repo)
 - [Housecall Pro estimate follow-up templates](https://quotechime.pages.dev/guides/housecall-pro-estimate-follow-up-template?ref=github-repo)
 - [ServiceTitan unsold estimate follow-up templates](https://quotechime.pages.dev/guides/servicetitan-unsold-estimate-follow-up-template?ref=github-repo)
+
+Examples by work type:
+
+- [plumbing](https://quotechime.pages.dev/industries/plumber-quote-follow-up?ref=github-repo), [electrical](https://quotechime.pages.dev/industries/electrician-quote-follow-up?ref=github-repo), and [building](https://quotechime.pages.dev/industries/builder-quote-follow-up?ref=github-repo)
+- [painting](https://quotechime.pages.dev/industries/painter-quote-follow-up?ref=github-repo), [roofing](https://quotechime.pages.dev/industries/roofer-quote-follow-up?ref=github-repo), and [HVAC](https://quotechime.pages.dev/industries/hvac-quote-follow-up?ref=github-repo)
+- [pest control](https://quotechime.pages.dev/industries/pest-control-quote-follow-up?ref=github-repo), [tiling](https://quotechime.pages.dev/industries/tiler-quote-follow-up?ref=github-repo), and [solar installation](https://quotechime.pages.dev/industries/solar-installer-quote-follow-up?ref=github-repo)
 
 ## Why this exists
 
