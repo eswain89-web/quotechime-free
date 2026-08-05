@@ -40,5 +40,9 @@ test('GitHub Pages entry point runs the local module and links the commercial of
   assert.match(html, /A\$19 Complete Follow-up Kit/);
   assert.match(html, /No outcome is guaranteed/);
   assert.match(html, /quotechime-follow-up-sequence\.txt/);
+  assert.match(html, /generated-next-step/);
+  assert.match(html, /products\/quote-closeout-mini-pack\?ref=/);
+  assert.match(html, /nouploadtools/);
+  assert.match(html, /zuctools/);
   assert.match(readFileSync(resolve(import.meta.dirname, '../robots.txt'), 'utf8'), /sitemap\.xml/);
 });
