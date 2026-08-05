@@ -46,5 +46,6 @@ test('GitHub Pages entry point runs the local module and links the commercial of
   assert.match(html, /nouploadtools/);
   assert.match(html, /zuctools/);
   assert.match(html, /nosubscription/);
+  assert.match(html, /nosignups/);
   assert.match(readFileSync(resolve(import.meta.dirname, '../robots.txt'), 'utf8'), /sitemap\.xml/);
 });
