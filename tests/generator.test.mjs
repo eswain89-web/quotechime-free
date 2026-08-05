@@ -1,5 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { buildSequence, sequenceAsText } from '../src/generator.js';
 
 test('creates the complete four-touch sequence', () => {
@@ -22,4 +24,12 @@ test('does not make network calls or require dependencies', async () => {
   } finally {
     globalThis.fetch = original;
   }
+});
+
+test('GitHub Pages entry point runs the local module and links the commercial offers transparently', () => {
+  const html = readFileSync(resolve(import.meta.dirname, '../index.html'), 'utf8');
+  assert.match(html, /\.\/src\/generator\.js/);
+  assert.match(html, /A\$7 Quick Script Pack/);
+  assert.match(html, /A\$19 Complete Follow-up Kit/);
+  assert.match(html, /No outcome is guaranteed/);
 });
