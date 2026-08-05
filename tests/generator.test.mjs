@@ -31,6 +31,7 @@ test('GitHub Pages entry point runs the local module and links the commercial of
   assert.match(html, /\.\/src\/generator\.js/);
   assert.match(html, /A\$7 Quick Script Pack/);
   assert.match(html, /A\$3 Closeout Mini Pack/);
+  assert.match(html, /freshcode.*toolcommons/);
   assert.match(html, /A\$19 Complete Follow-up Kit/);
   assert.match(html, /No outcome is guaranteed/);
   assert.match(readFileSync(resolve(import.meta.dirname, '../robots.txt'), 'utf8'), /sitemap\.xml/);
