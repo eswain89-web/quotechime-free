@@ -7,6 +7,12 @@ quote data.
 **[Use the live generator](https://quotenudge.pages.dev/#generator)** ·
 **[Get the complete A$19 operating kit](https://quotenudge.pages.dev/#kit)**
 
+Free companion tools:
+
+- [business-day follow-up planner + calendar reminders](https://quotenudge.pages.dev/tools/follow-up-date-calculator)
+- [lost quote revenue scenario calculator](https://quotenudge.pages.dev/tools/lost-quote-revenue-calculator)
+- [embeddable privacy-first website widget](https://quotenudge.pages.dev/tools/embed-quote-follow-up-widget)
+
 ## Why this exists
 
 An unanswered quote does not always mean “no”. It can mean the customer missed
@@ -41,6 +47,22 @@ console.log(sequenceAsText(sequence));
 ```
 
 Open `demo/index.html` to try the module without a build step.
+
+## Embed the hosted mini generator
+
+Resource sites can add a no-cookie mini generator with one iframe:
+
+```html
+<iframe
+  src="https://quotenudge.pages.dev/embed/follow-up-widget"
+  title="Free quote follow-up message generator"
+  width="100%" height="620" loading="lazy"
+  style="border:0;border-radius:16px;max-width:620px"
+></iframe>
+```
+
+The hosted widget collects no form submissions and sends no messages. Sites
+that require complete control can use this repository's module instead.
 
 ## Privacy and limits
 
