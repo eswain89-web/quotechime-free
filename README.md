@@ -18,6 +18,14 @@ Free companion tools:
 - [quote objection response generator](https://quotechime.pages.dev/tools/quote-objection-response-generator?ref=github-repo)
 - [embeddable privacy-first website widget](https://quotechime.pages.dev/tools/embed-quote-follow-up-widget?ref=github-repo)
 
+Using job-management software? These independent guides match editable copy to
+the vendors' documented reminder behaviour:
+
+- [Jobber quote follow-up templates](https://quotechime.pages.dev/guides/jobber-quote-follow-up-template?ref=github-repo)
+- [ServiceM8 quote follow-up templates](https://quotechime.pages.dev/guides/servicem8-quote-follow-up-template?ref=github-repo)
+- [Tradify quote reminder templates](https://quotechime.pages.dev/guides/tradify-quote-reminder-template?ref=github-repo)
+- [Fergus quote reminder templates](https://quotechime.pages.dev/guides/fergus-quote-reminder-template?ref=github-repo)
+
 ## Why this exists
 
 An unanswered quote does not always mean “no”. It can mean the customer missed
