@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://eswain89-web.github.io/quotenudge-free/sitemap.xml
