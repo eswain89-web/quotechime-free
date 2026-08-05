@@ -7,7 +7,7 @@ quote data.
 ![QuoteChime Free browser generator](docs/quotechime-free.png)
 
 **[Use the live generator](https://quotechime.pages.dev/?ref=github-repo#generator)** ·
-**[Compare the A$3, A$7 and A$19 one-time packs](https://quotechime.pages.dev/?ref=github-repo#offers)**
+**[Compare the A$1, A$3, A$7 and A$19 one-time packs](https://quotechime.pages.dev/?ref=github-repo#offers)**
 
 Free companion tools:
 
@@ -81,13 +81,15 @@ that require complete control can use this repository's module instead.
 
 ## Paid operating kit
 
-The free module handles the basic four-message sequence. The one-time A$3
+The free module handles the basic four-message sequence. The A$1
+[Final Follow-up Card](https://quotechime.pages.dev/products/final-follow-up-card?ref=github-repo)
+adds three tones for one final-decision message and a pre-send check. The one-time A$3
 [Closeout Mini Pack](https://quotechime.pages.dev/products/quote-closeout-mini-pack?ref=github-repo)
 contains five final-decision scripts and a checklist. The A$7 Quick Script Pack
 adds 12 scripts and a compact routine. The A$19
 [QuoteChime Complete Kit](https://quotechime.pages.dev/?ref=github-repo#offers) adds 40 scenario
 scripts, a quote tracker, objection matrix, call guide, and weekly pipeline
-routine. All three are digital downloads, not subscriptions.
+routine. All four are digital downloads, not subscriptions.
 
 ## Test
 
