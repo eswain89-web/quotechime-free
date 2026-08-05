@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { buildSequence, sequenceAsText } from '../src/generator.js';
+import { buildSequence, messageAsText, sequenceAsText } from '../src/generator.js';
 
 test('creates the complete four-touch sequence', () => {
   const sequence = buildSequence({
@@ -15,6 +15,7 @@ test('creates the complete four-touch sequence', () => {
   assert.match(sequence[0].body, /Blue Gum Plumbing/);
   assert.match(sequence[1].body, /\$1,850/);
   assert.match(sequence[0].body, /quote Q-1042/);
+  assert.match(messageAsText(sequence[1]), /^Subject: Quick check-in on quote Q-1042/);
   assert.match(sequenceAsText(sequence), /Close the loop/);
 });
 
@@ -38,5 +39,6 @@ test('GitHub Pages entry point runs the local module and links the commercial of
   assert.match(html, /freshcode.*toolcommons/);
   assert.match(html, /A\$19 Complete Follow-up Kit/);
   assert.match(html, /No outcome is guaranteed/);
+  assert.match(html, /quotechime-follow-up-sequence\.txt/);
   assert.match(readFileSync(resolve(import.meta.dirname, '../robots.txt'), 'utf8'), /sitemap\.xml/);
 });

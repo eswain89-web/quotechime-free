@@ -50,10 +50,14 @@ export function buildSequence(input = {}) {
   ];
 }
 
+export function messageAsText(item) {
+  return [item.subject ? `Subject: ${item.subject}` : '', item.body].filter(Boolean).join('\n\n');
+}
+
 export function sequenceAsText(sequence) {
   return sequence.map((item) => [
     item.timing,
-    `${item.channel}${item.subject ? ` · ${item.subject}` : ''}`,
-    item.body,
+    item.channel,
+    messageAsText(item),
   ].join('\n')).join('\n\n---\n\n');
 }
