@@ -2,7 +2,8 @@
 
 A tiny, dependency-free quote follow-up sequence generator. It creates four
 calm SMS/email drafts for service businesses without uploading customer or
-quote data.
+quote data. The hosted open-source edition is installable and its generator
+works offline after the first successful load.
 
 ![QuoteChime Free browser generator](docs/quotechime-free.png)
 
@@ -16,6 +17,7 @@ Free companion tools:
 - [printable quote follow-up checklist](https://quotechime.pages.dev/tools/quote-follow-up-checklist?ref=github-repo)
 - [lost quote revenue scenario calculator](https://quotechime.pages.dev/tools/lost-quote-revenue-calculator?ref=github-repo)
 - [quote objection response generator](https://quotechime.pages.dev/tools/quote-objection-response-generator?ref=github-repo)
+- [quote follow-up next-step checker](https://quotechime.pages.dev/tools/quote-follow-up-next-step?ref=github-repo)
 - [embeddable privacy-first website widget](https://quotechime.pages.dev/tools/embed-quote-follow-up-widget?ref=github-repo)
 
 Repository-native resources that work offline:
@@ -105,6 +107,7 @@ that require complete control can use this repository's module instead.
 ## Privacy and limits
 
 - Runs locally in the browser.
+- Installable as a PWA; the open-source generator works offline after first load.
 - No account, cookies, analytics SDK, or third-party runtime dependency.
 - No messages are sent by this code.
 - No reply, sale, payment, or conversion outcome is guaranteed.
