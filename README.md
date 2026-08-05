@@ -25,6 +25,8 @@ the vendors' documented reminder behaviour:
 - [ServiceM8 quote follow-up templates](https://quotechime.pages.dev/guides/servicem8-quote-follow-up-template?ref=github-repo)
 - [Tradify quote reminder templates](https://quotechime.pages.dev/guides/tradify-quote-reminder-template?ref=github-repo)
 - [Fergus quote reminder templates](https://quotechime.pages.dev/guides/fergus-quote-reminder-template?ref=github-repo)
+- [Housecall Pro estimate follow-up templates](https://quotechime.pages.dev/guides/housecall-pro-estimate-follow-up-template?ref=github-repo)
+- [ServiceTitan unsold estimate follow-up templates](https://quotechime.pages.dev/guides/servicetitan-unsold-estimate-follow-up-template?ref=github-repo)
 
 ## Why this exists
 
