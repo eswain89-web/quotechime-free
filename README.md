@@ -11,6 +11,7 @@ Free companion tools:
 
 - [business-day follow-up planner + calendar reminders](https://quotechime.pages.dev/tools/follow-up-date-calculator)
 - [lost quote revenue scenario calculator](https://quotechime.pages.dev/tools/lost-quote-revenue-calculator)
+- [quote objection response generator](https://quotechime.pages.dev/tools/quote-objection-response-generator)
 - [embeddable privacy-first website widget](https://quotechime.pages.dev/tools/embed-quote-follow-up-widget)
 
 ## Why this exists
