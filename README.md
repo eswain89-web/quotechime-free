@@ -4,12 +4,15 @@ A tiny, dependency-free quote follow-up sequence generator. It creates four
 calm SMS/email drafts for service businesses without uploading customer or
 quote data.
 
+![QuoteChime Free browser generator](docs/quotechime-free.png)
+
 **[Use the live generator](https://quotechime.pages.dev/#generator)** ·
 **[Get the A$7 quick pack or A$19 complete kit](https://quotechime.pages.dev/#offers)**
 
 Free companion tools:
 
 - [business-day follow-up planner + calendar reminders](https://quotechime.pages.dev/tools/follow-up-date-calculator)
+- [quote expiry date calculator](https://quotechime.pages.dev/tools/quote-expiry-date-calculator)
 - [lost quote revenue scenario calculator](https://quotechime.pages.dev/tools/lost-quote-revenue-calculator)
 - [quote objection response generator](https://quotechime.pages.dev/tools/quote-objection-response-generator)
 - [embeddable privacy-first website widget](https://quotechime.pages.dev/tools/embed-quote-follow-up-widget)
