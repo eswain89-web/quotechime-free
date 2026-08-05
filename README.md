@@ -54,6 +54,17 @@ console.log(sequenceAsText(sequence));
 
 Open `demo/index.html` to try the module without a build step.
 
+## Deploy your own copy
+
+This repository is a GitHub template. Select **Use this template**, create a
+public repository, then enable GitHub Pages from the `main` branch and `/`
+root in **Settings → Pages**. The root `index.html` works without a build step,
+server, account, or API key.
+
+If you customise the wording, keep the finite stop condition and review every
+generated fact before sending. A deployed copy still drafts text only; it does
+not send messages or upload form contents.
+
 ## Embed the hosted mini generator
 
 Resource sites can add a no-cookie mini generator with one iframe:
