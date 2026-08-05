@@ -43,6 +43,7 @@ const sequence = buildSequence({
   business: 'Blue Gum Plumbing',
   customer: 'Sam',
   service: 'the bathroom tap replacement',
+  reference: 'Q-1042', // optional
   amount: '1850',
   availability: 'the week starting 24 August',
   tone: 'warm',

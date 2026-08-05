@@ -8,11 +8,13 @@ test('creates the complete four-touch sequence', () => {
   const sequence = buildSequence({
     business: 'Blue Gum Plumbing', customer: 'Sam',
     service: 'tap replacement', amount: 1850,
+    reference: 'Q-1042',
     availability: '24 August', tone: 'warm',
   });
   assert.equal(sequence.length, 4);
   assert.match(sequence[0].body, /Blue Gum Plumbing/);
   assert.match(sequence[1].body, /\$1,850/);
+  assert.match(sequence[0].body, /quote Q-1042/);
   assert.match(sequenceAsText(sequence), /Close the loop/);
 });
 
@@ -20,7 +22,9 @@ test('does not make network calls or require dependencies', async () => {
   const original = globalThis.fetch;
   globalThis.fetch = () => { throw new Error('Network call attempted'); };
   try {
-    assert.equal(buildSequence({}).length, 4);
+    const fallback = buildSequence({});
+    assert.equal(fallback.length, 4);
+    assert.doesNotMatch(fallback[1].body, /the the/);
   } finally {
     globalThis.fetch = original;
   }
