@@ -54,7 +54,7 @@ Resource sites can add a no-cookie mini generator with one iframe:
 
 ```html
 <iframe
-  src="https://quotenudge.pages.dev/embed/follow-up-widget"
+  src="https://quotenudge.pages.dev/embed/follow-up-widget/"
   title="Free quote follow-up message generator"
   width="100%" height="620" loading="lazy"
   style="border:0;border-radius:16px;max-width:620px"
