@@ -5,7 +5,7 @@ calm SMS/email drafts for service businesses without uploading customer or
 quote data.
 
 **[Use the live generator](https://quotenudge.pages.dev/#generator)** ·
-**[Get the complete A$19 operating kit](https://quotenudge.pages.dev/#kit)**
+**[Get the A$7 quick pack or A$19 complete kit](https://quotenudge.pages.dev/#offers)**
 
 Free companion tools:
 
@@ -75,10 +75,11 @@ that require complete control can use this repository's module instead.
 
 ## Paid operating kit
 
-The free module handles the basic four-message sequence. The one-time
-[QuoteNudge Complete Kit](https://quotenudge.pages.dev/#kit) adds 40 scenario
+The free module handles the basic four-message sequence. The one-time A$7 Quick
+Script Pack adds 12 scripts and a compact routine. The A$19
+[QuoteNudge Complete Kit](https://quotenudge.pages.dev/#offers) adds 40 scenario
 scripts, a quote tracker, objection matrix, call guide, and weekly pipeline
-routine. It is a digital download, not a subscription.
+routine. Both are digital downloads, not subscriptions.
 
 ## Test
 
